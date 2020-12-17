@@ -1,2 +1,2 @@
 # hello-world
-The c language repo which i will use to save my codes online.
+The c and c++ language repo which i will use to save my codes online.
