@@ -7,7 +7,7 @@ int main() {
     //Since pi is going to be used multiple times for calculations we declare and define it as a constant first
     const float pi = 3.141;
     //Initializing the global vairable side as it is going to be used in both square and cube calculations
-    float side; 
+    float side;
     float length;
     float breadth;
     float height;
@@ -51,9 +51,7 @@ int main() {
         break;
     case 4:
         printf("Enter the height and base of the triangle for calcultaing its area and the length of three sides for perimeter:\n");
-        float a;
-        float b;
-        float c;
+        float a, b,c;
         scanf("%f %f %f %f %f",&height,&base,&a,&b,&c);
         area =  0.5*base*height;
         perimeter =  a+b+c ;
